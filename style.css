@@ -1,0 +1,14 @@
+p {
+  color: rgb(9, 58, 42);
+}
+h1 {
+  color: blue;
+  text-align: center;
+}
+ol {
+  color: rgb(195, 67, 67);
+  text-align: left;
+}
+body {
+  background: pink;
+}
