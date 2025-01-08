@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attribute Selectors</title>
+    <style>
+      h1[title] {
+        background-color: aqua;
+      }
+      h1[title="sub head"] {
+        color: blue;
+      }
+      h1[title~="sub"] {
+        text-transform: capitalize;
+      }
+      p[att|="para"] {
+        text-transform: uppercase;
+      }
+      p[att^="p"] {
+        text-align: center;
+      }
+      p[att$="graph"] {
+        font-size: 20px;
+      }
+      p[att*="para"] {
+        font-style: italic;
+      }
+      body {
+        background-color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 title="head">welcome to CSS</h1>
+    <h1 title="sub head2">This is Heading1 for Attribute Selectors</h1>
+    <h1 title="sub head">This is Heading2 in Atrribute Selectors</h1>
+    <h1 title="sub head">This is Heading3 in Attribute Selectors</h1>
+    <p att="para">
+      This is used for styling the web page based on Attributes and its values
+    </p>
+    <p att="small para">
+      There are number of features to apply the style to web page based on
+      attributes nad its values
+    </p>
+    <p att="para-graph">
+      We use different symbols along with equals to to represent the different
+      ways
+    </p>
+  </body>
+</html>

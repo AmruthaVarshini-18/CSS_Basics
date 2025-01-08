@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Elements</title>
+    <style>
+      body {
+        background-color: rgb(76, 132, 184);
+      }
+      h1 {
+        text-align: center;
+        text-transform: uppercase;
+      }
+      h2::before {
+        content: "The ";
+      }
+      h2::after {
+        content: " Pseudo element";
+      }
+      p::selection {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to pesudo Elements</h1>
+    <h2>Some commonly used Pesudo Elements</h2>
+    <h2>First-Letter</h2>
+    <h2>First-Line</h2>
+    <h2>Before</h2>
+    <h2>After</h2>
+    <h2>Selection</h2>
+    <p id="Para">
+      These all are some commonly used pseudo elements in cass to aplly style to
+      the partcular part of the element
+    </p>
+  </body>
+</html>

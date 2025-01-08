@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Elements</title>
+    <style>
+      body {
+        background-color: bisque;
+      }
+      h1::first-letter {
+        color: blue;
+        text-transform: uppercase;
+      }
+      #head::first-letter {
+        color: blue;
+        text-transform: uppercase;
+      }
+      .Pseudo::first-line {
+        color: crimson;
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>welcome to CSS practice Session</h1>
+    <h2 id="head">pesudo Elements</h2>
+    <p class="Pseudo">
+      This is another type of Selectors used to style the CSS. This pesudo
+      element is represented with double colon"::" and it also used as id based
+      , class based and tag based to style the web page with Cascading Style
+      Sheets
+    </p>
+  </body>
+</html>
